@@ -26,7 +26,7 @@ safe_query_counts <- function(url, headers = c()) {
 
 # range dates
 start_date <- as.Date("2020-01-01")
-(end_date <- Sys.Date() - 1) # [1] "2020-03-21"
+(end_date <- Sys.Date() - 1) # [1] "2020-03-22"
 
 # initialize date results data.frame
 date_data <- tibble(
